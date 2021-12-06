@@ -18,14 +18,12 @@ Be aware please, that the Prusa-Firmware-Buddy/Master repository is a **developm
 ## Load network data ##
 
 - In the prusa`_`printer_settings.ini file and under `[wifi]` tag edit the ssid and psk fields with the correct WiFi data
-
-[`wifi`]
-
-```ssid= enter here the SSID of your wireless network```
-
-```psk= enter here the valid password```
-
-```key_mgmt=WPA```
+```
+[wifi]
+ssid= enter here the SSID of your wireless network
+psk= enter here the valid password
+key_mgmt=WPA
+```
 
 - Store the prusa`_`printer_settings.ini file in the root folder of the USB flash drive and plug in to the printer
 - Run the **Setting-> Load Settings from** command from the printer
